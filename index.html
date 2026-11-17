@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>朴妮唛42集高清-剧集版本分辨与观看指南</title>
+<meta name="description" content="朴妮唛42集高清是围绕该系列第42集清晰度版本整理的资料页，梳理各版本画质差异、字幕与音频规格、文件信息核对方法，并收录观看顺序、常见疑问与观众反馈，帮助自行判断片源优劣。">
+<meta name="keywords" content="朴妮唛42集高清">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f2e3d'/%3E%3Cpath d='M18 20h28v6H18zM18 32h20v6H18zM18 44h28v6H18z' fill='%23e8b64c'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#16242b;
+  --ink-soft:#3c525c;
+  --paper:#f7f4ee;
+  --card:#ffffff;
+  --line:#ddd6c8;
+  --brand:#0f2e3d;
+  --brand-2:#1d4e63;
+  --accent:#b8762a;
+  --accent-soft:#f2e2c8;
+  --ok:#2f6b4f;
+  --warn:#8a3b2c;
+  --radius:10px;
+  --shadow:0 2px 10px rgba(15,46,61,.08);
+  --shadow-lg:0 10px 30px rgba(15,46,61,.14);
+  --space:16px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  --announce-h:40px;
+  --head-h:60px;
+  --offset:calc(var(--announce-h) + var(--head-h) + 12px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:var(--font);
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--brand-2);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{line-height:1.35;margin:0 0 .5em}
+h2{font-size:1.5rem}
+h3{font-size:1.12rem}
+p{margin:0 0 1em}
+ul,ol{margin:0 0 1em;padding-left:1.3em}
+section{scroll-margin-top:var(--offset)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+/* ============ 吸顶公告条 + 页头 ============ */
+.sticky-top{position:sticky;top:0;z-index:50}
+.announce{
+  height:var(--announce-h);
+  display:flex;align-items:center;
+  background:var(--brand);
+  color:#f0e9db;
+  font-size:.84rem;
+  overflow:hidden;
+}
+.announce .wrap{display:flex;align-items:center;gap:12px;width:100%}
+.announce .badge{
+  flex:none;background:var(--accent);color:#1c1206;
+  font-weight:700;padding:1px 8px;border-radius:999px;font-size:.75rem;
+}
+.announce p{margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.announce a{color:#ffe3ad;text-decoration:underline;flex:none}
+
+.site-head{
+  height:var(--head-h);
+  background:rgba(247,244,238,.96);
+  backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--line);
+  box-shadow:var(--shadow);
+}
+.head-inner{
+  display:flex;align-items:center;gap:18px;height:100%;
+  max-width:1180px;margin:0 auto;padding:0 var(--space);
+}
+.brand{display:flex;align-items:center;gap:9px;flex:none;color:var(--brand);font-weight:800;font-size:1.05rem}
+.brand svg{width:34px;height:34px;flex:none}
+.brand:hover{text-decoration:none}
+.main-nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:8px}
+.main-nav a{
+  padding:6px 10px;border-radius:8px;font-size:.9rem;color:var(--ink-soft);
+}
+.main-nav a:hover,.main-nav a.active{background:var(--accent-soft);color:var(--brand);text-decoration:none}
+.head-tools{margin-left:auto;display:flex;align-items:center;gap:8px}
+.search-box{display:flex;align-items:center;border:1px solid var(--line);background:#fff;border-radius:999px;padding:2px 4px 2px 12px}
+.search-box input{
+  border:0;background:transparent;font:inherit;font-size:.86rem;width:150px;padding:5px 0;color:var(--ink);
+}
+.search-box input:focus{outline:none}
+.search-box button{
+  border:0;background:var(--brand);color:#fff;border-radius:999px;
+  padding:5px 14px;font:inherit;font-size:.82rem;cursor:pointer;
+}
+.menu-btn{
+  display:none;border:1px solid var(--line);background:#fff;border-radius:8px;
+  padding:6px 10px;font:inherit;font-size:.86rem;cursor:pointer;color:var(--ink);
+}
+.skip-link{
+  position:absolute;left:-999px;top:0;background:var(--brand);color:#fff;padding:8px 14px;z-index:99;border-radius:0 0 8px 0;
+}
+.skip-link:focus{left:0}
+
+/* ============ 布局 ============ */
+.container{max-width:1180px;margin:0 auto;padding:0 var(--space)}
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 300px;
+  gap:32px;
+  padding-top:26px;
+  padding-bottom:40px;
+}
+.aside{position:relative}
+.aside-sticky{position:sticky;top:var(--offset)}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+.side-nav{padding:14px 16px;margin-bottom:18px}
+.side-nav h3{font-size:.95rem;margin-bottom:8px;color:var(--brand)}
+.side-nav ol{list-style:none;padding:0;margin:0;font-size:.88rem}
+.side-nav li{margin:0}
+.side-nav a{
+  display:block;padding:5px 8px;border-left:3px solid transparent;color:var(--ink-soft);border-radius:0 6px 6px 0;
+}
+.side-nav a:hover{background:#f4efe4;text-decoration:none}
+.side-nav a.current{border-left-color:var(--accent);background:var(--accent-soft);color:var(--brand);font-weight:600}
+
+/* ============ 首屏 ============ */
+.hero{
+  background:linear-gradient(135deg,#0f2e3d 0%,#1d4e63 62%,#2a647c 100%);
+  color:#f2ede2;
+  position:relative;
+  overflow:hidden;
+  border-radius:0;
+}
+.hero .container{
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+  gap:28px;align-items:center;
+  padding-top:44px;padding-bottom:44px;
+}
+.hero .kicker{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:.8rem;letter-spacing:.08em;color:#ffd88a;margin-bottom:12px;
+}
+.hero .kicker::before{content:"";width:26px;height:2px;background:var(--accent)}
+.hero h1{font-size:clamp(1.7rem,4vw,2.5rem);color:#fff;margin-bottom:14px}
+.hero p.lead{color:#dfe6e2;font-size:1rem;max-width:34em}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.btn{
+  display:inline-block;padding:10px 20px;border-radius:999px;font-size:.92rem;font-weight:600;
+  border:1px solid transparent;cursor:pointer;transition:transform .15s ease;
+}
+.btn:hover{transform:translateY(-2px);text-decoration:none}
+.btn-primary{background:var(--accent);color:#1c1206}
+.btn-ghost{border-color:rgba(255,255,255,.5);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.hero-facts{display:flex;gap:26px;margin-top:26px;flex-wrap:wrap}
+.hero-facts div{font-size:.82rem;color:#cfd9d4}
+.hero-facts strong{display:block;font-size:1.25rem;color:#ffd88a;font-weight:800}
+.hero-art{position:relative;min-height:230px}
+.hero-art svg{width:100%;height:auto}
+
+/* ============ 通用板块 ============ */
+.panel{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px 24px;margin-bottom:26px;box-shadow:var(--shadow);
+}
+.panel > h2{
+  display:flex;align-items:baseline;gap:10px;padding-bottom:10px;margin-bottom:16px;
+  border-bottom:2px solid var(--accent-soft);font-size:1.35rem;
+}
+.panel > h2 .no{
+  font-size:.78rem;color:var(--accent);font-weight:800;letter-spacing:.06em;font-family:Georgia,serif;
+}
+.section-note{font-size:.85rem;color:var(--ink-soft);margin-top:-8px;margin-bottom:14px}
+
+/* 概览：对照面板 */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.compare > div{padding:14px 16px;font-size:.9rem}
+.compare .row-head{background:#f1ece1;font-weight:700;font-size:.85rem;color:var(--brand)}
+.compare .col-a{background:#fff}
+.compare .col-b{background:#fbf8f2;border-left:1px solid var(--line)}
+.compare .span2{grid-column:1 / -1}
+
+/* 精选网格 */
+.grid-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.mcard{
+  border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;
+  display:flex;flex-direction:column;transition:transform .15s ease,box-shadow .15s ease;
+}
+.mcard:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.mcard img{aspect-ratio:16/9;width:100%;height:auto;object-fit:cover}
+.mcard .body{padding:12px 14px 14px}
+.mcard h3{font-size:.98rem;margin-bottom:6px}
+.mcard p{font-size:.83rem;color:var(--ink-soft);margin:0}
+.tag-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tag{
+  font-size:.74rem;background:var(--accent-soft);color:#6d4514;padding:1px 8px;border-radius:999px;
+}
+.tag.blue{background:#e0ecf1;color:#1d4e63}
+.tag.green{background:#dfeee6;color:#2f6b4f}
+.tag.red{background:#f4e0db;color:#8a3b2c}
+
+/* 最新更新：紧凑列表 */
+.updates{list-style:none;padding:0;margin:0}
+.updates li{
+  display:grid;grid-template-columns:78px 1fr;gap:12px;
+  padding:10px 0;border-bottom:1px dashed var(--line);font-size:.9rem;
+}
+.updates li:last-child{border-bottom:0}
+.updates time{color:var(--accent);font-weight:700;font-size:.8rem;font-variant-numeric:tabular-nums}
+.updates .u-title{font-weight:600}
+.updates .u-desc{color:var(--ink-soft);font-size:.85rem;margin:2px 0 0}
+
+/* 分类入口标签索引 */
+.index-tags{display:flex;flex-wrap:wrap;gap:10px}
+.index-tags a{
+  border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 14px;
+  font-size:.9rem;color:var(--brand);display:flex;align-items:center;gap:7px;
+}
+.index-tags a:hover{border-color:var(--accent);background:var(--accent-soft);text-decoration:none}
+.index-tags .cnt{font-size:.75rem;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+
+/* 深度解析 */
+.deep{border-left:4px solid var(--accent);background:#fffdf8}
+.deep h2{border-bottom-color:#efdfc2}
+.deep h3{margin-top:1.4em;color:var(--brand);padding-left:10px;border-left:3px solid var(--brand-2)}
+.deep h3:first-of-type{margin-top:0}
+.deep .callout{
+  background:#f4efe4;border-radius:8px;padding:12px 16px;font-size:.88rem;color:#594a2f;margin:14px 0;
+}
+.deep table{width:100%;border-collapse:collapse;font-size:.86rem;margin:12px 0}
+.deep th,.deep td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+.deep th{background:#f1ece1;font-weight:700;color:var(--brand)}
+.deep .quote{
+  border-left:3px solid var(--brand-2);padding:2px 0 2px 14px;color:var(--ink-soft);font-style:normal;margin:12px 0;font-size:.92rem;
+}
+
+/* 步骤编号 */
+.steps{list-style:none;padding:0;margin:0;counter-reset:step}
+.steps li{
+  counter-increment:step;position:relative;padding:10px 0 10px 46px;border-bottom:1px dashed var(--line);font-size:.92rem;
+}
+.steps li:last-child{border-bottom:0}
+.steps li::before{
+  content:counter(step);position:absolute;left:0;top:10px;width:30px;height:30px;border-radius:50%;
+  background:var(--brand);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center;
+}
+.steps b{color:var(--brand)}
+
+/* FAQ */
+details{
+  border:1px solid var(--line);border-radius:8px;background:#fff;margin-bottom:10px;padding:0 14px;
+}
+details[open]{border-color:#cbb98f;background:#fffdf7}
+summary{
+  cursor:pointer;padding:12px 0;font-weight:600;font-size:.94rem;list-style:none;position:relative;padding-right:26px;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"＋";position:absolute;right:0;top:10px;color:var(--accent);font-weight:700}
+details[open] summary::after{content:"－"}
+details .ans{padding:0 0 14px;font-size:.9rem;color:var(--ink-soft)}
+
+/* 评论 */
+.comments{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.comment{background:#fbf8f2;border:1px solid var(--line);border-radius:8px;padding:12px 14px;font-size:.88rem}
+.comment .who{font-weight:700;font-size:.85rem;color:var(--brand);display:flex;justify-content:space-between;gap:8px}
+.comment .who span{font-weight:400;color:#8a7f6a;font-size:.76rem}
+.comment p{margin:6px 0 0}
+
+/* 资讯 */
+.news-list{list-style:none;padding:0;margin:0}
+.news-list li{padding:9px 0;border-bottom:1px dotted var(--line);font-size:.9rem;display:flex;gap:10px;align-items:baseline}
+.news-list li:last-child{border-bottom:0}
+.news-list .src{flex:none;font-size:.75rem;color:#8a7f6a;font-variant-numeric:tabular-nums}
+.news-list a{font-weight:600}
+
+/* 推荐标签 */
+.rec-tags{display:flex;flex-wrap:wrap;gap:9px}
+.rec-tags a{
+  border:1px solid var(--line);border-radius:999px;padding:5px 14px;font-size:.84rem;color:var(--ink-soft);background:#fff;
+}
+.rec-tags a:hover{background:var(--brand);color:#fff;border-color:var(--brand);text-decoration:none}
+
+/* 榜单 */
+.rank{list-style:none;padding:0;margin:0;counter-reset:rk}
+.rank li{
+  counter-increment:rk;display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;
+  padding:9px 0;border-bottom:1px dashed var(--line);font-size:.9rem;
+}
+.rank li:last-child{border-bottom:0}
+.rank li::before{
+  content:counter(rk);font-family:Georgia,serif;font-weight:800;color:var(--accent);font-size:1.05rem;text-align:center;
+}
+.rank .score{font-size:.78rem;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+
+/* 时间线 */
+.timeline{list-style:none;padding:0 0 0 18px;margin:0;border-left:2px solid var(--accent-soft)}
+.timeline li{position:relative;padding:0 0 16px 18px;font-size:.9rem}
+.timeline li::before{content:"";position:absolute;left:-25px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--accent);border:2px solid #fff}
+.timeline time{display:block;color:var(--accent);font-size:.78rem;font-weight:700;font-variant-numeric:tabular-nums}
+
+/* 页尾 */
+.site-foot{background:var(--brand);color:#c9d6d2;font-size:.86rem;margin-top:10px}
+.foot-grid{
+  display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:28px;
+  padding:36px 0 24px;
+}
+.site-foot h4{color:#fff;font-size:.92rem;margin-bottom:10px}
+.site-foot a{color:#c9d6d2}
+.site-foot a:hover{color:#ffd88a}
+.site-foot ul{list-style:none;padding:0;margin:0}
+.site-foot li{padding:3px 0}
+.foot-brand{display:flex;align-items:center;gap:9px;color:#fff;font-weight:800;margin-bottom:8px}
+.foot-brand svg{width:30px;height:30px}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.15);padding:14px 0 22px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:.78rem;color:#9fb3ad}
+
+/* 搜索无结果 */
+.no-result{display:none;margin-top:10px;font-size:.88rem;color:var(--warn);background:#f7ebe6;border:1px solid #e4c8bd;border-radius:8px;padding:8px 12px}
+.no-result.show{display:block}
+
+/* 回到顶部 */
+.to-top{
+  position:fixed;right:18px;bottom:22px;z-index:60;
+  width:44px;height:44px;border-radius:50%;border:0;background:var(--brand);color:#fff;
+  font-size:1.05rem;cursor:pointer;box-shadow:var(--shadow-lg);opacity:0;pointer-events:none;
+  transition:opacity .2s ease,transform .2s ease;
+}
+.to-top.show{opacity:1;pointer-events:auto}
+.to-top:hover{transform:translateY(-3px)}
+
+/* 平板 */
+@media (max-width:960px){
+  .layout{grid-template-columns:1fr;gap:22px}
+  .aside-sticky{position:static}
+  .side-nav{order:2}
+  .hero .container{grid-template-columns:1fr;padding-top:32px;padding-bottom:32px}
+  .hero-art{max-width:430px}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .main-nav{display:none;position:absolute;left:0;right:0;top:var(--head-h);background:var(--paper);border-bottom:1px solid var(--line);padding:10px 16px;box-shadow:var(--shadow-lg)}
+  .main-nav.open{display:flex;flex-direction:column;gap:2px}
+  .menu-btn{display:inline-block}
+  .head-inner{position:relative}
+}
+@media (max-width:640px){
+  body{font-size:15px}
+  .search-box input{width:96px}
+  .comments{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+  .compare .col-b{border-left:0;border-top:1px solid var(--line)}
+  .foot-grid{grid-template-columns:1fr}
+  .hero-facts{gap:18px}
+  .panel{padding:18px 16px}
+  .updates li{grid-template-columns:64px 1fr}
+  .announce .wrap{gap:8px}
+  .brand span{font-size:.95rem}
+  .to-top{width:40px;height:40px;right:12px;bottom:14px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+  .mcard:hover,.btn:hover,.to-top:hover{transform:none}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="sticky-top">
+  <div class="announce">
+    <div class="container wrap">
+      <span class="badge">更新</span>
+      <p>11月7日核对：42集版本表新增「1920×1080·26分14秒」条目，字幕轨与音轨参数同步补齐。<a href="/#updates">查看变更</a></p>
+    </div>
+  </div>
+  <header class="site-head">
+    <div class="head-inner">
+      <a class="brand" href="/#top" aria-label="回到顶部">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0f2e3d"/><path d="M18 20h28v6H18zM18 32h20v6H18zM18 44h28v6H18z" fill="#e8b64c"/><circle cx="48" cy="35" r="5" fill="#e8b64c"/></svg>
+        <span>朴妮唛42集高清</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">频道菜单</button>
+      <nav class="main-nav" id="mainNav" aria-label="主题频道">
+        <a href="/#overview">领域概览</a>
+        <a href="/#picks">精选版本</a>
+        <a href="/#updates">更新记录</a>
+        <a href="/#channels">分类入口</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见疑问</a>
+      </nav>
+      <div class="head-tools">
+        <form class="search-box" id="searchForm" role="search">
+          <label for="q" class="skip-link" style="position:absolute;left:-999px">站内查找</label>
+          <input id="q" type="search" placeholder="查版本、字幕、码率…" autocomplete="off">
+          <button type="submit">查找</button>
+        </form>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="main">
+  <!-- ============ 首屏 ============ -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="container">
+      <div>
+        <span class="kicker">版本资料 · 清晰度核对 · 观看顺序</span>
+        <h1 id="hero-title">朴妮唛42集高清</h1>
+        <p class="lead">第42集在流传中出现过至少四个画质层级：480p 转录、720p 补帧、1080p 原始封装，以及重新调色版。这里把每个版本的时长、码率、字幕来源与音轨规格逐项摆开，方便对照手里的文件再决定看不看。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/#picks">查看精选版本</a>
+          <a class="btn btn-ghost" href="/#guide">按步骤核对片源</a>
+        </div>
+        <div class="hero-facts">
+          <div><strong>4</strong>画质层级</div>
+          <div><strong>26:14</strong>完整版时长</div>
+          <div><strong>7</strong>已核字幕轨</div>
+          <div><strong>11</strong>资料板块</div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 420 300" role="presentation">
+          <defs>
+            <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f2e2c8"/><stop offset="1" stop-color="#d9a24c"/>
+            </linearGradient>
+          </defs>
+          <rect x="20" y="30" width="300" height="180" rx="14" fill="rgba(255,255,255,.10)" stroke="rgba(255,255,255,.4)"/>
+          <rect x="44" y="54" width="252" height="132" rx="8" fill="url(#screen)" opacity=".9"/>
+          <path d="M160 98l52 22-52 22z" fill="#0f2e3d"/>
+          <rect x="44" y="194" width="120" height="8" rx="4" fill="rgba(255,255,255,.4)"/>
+          <rect x="44" y="208" width="200" height="8" rx="4" fill="rgba(255,255,255,.22)"/>
+          <g fill="rgba(255,255,255,.65)">
+            <rect x="330" y="42" width="66" height="10" rx="5"/>
+            <rect x="330" y="64" width="52" height="10" rx="5"/>
+            <rect x="330" y="86" width="66" height="10" rx="5"/>
+            <rect x="330" y="108" width="40" height="10" rx="5"/>
+          </g>
+          <rect x="330" y="150" width="70" height="52" rx="10" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="2"/>
+          <path d="M342 176l12-10 10 8 14-14" stroke="#ffd88a" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="392" cy="228" r="16" fill="none" stroke="rgba(255,255,255,.45)" stroke-width="3"/>
+          <path d="M404 240l12 12" stroke="rgba(255,255,255,.45)" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="container layout">
+    <!-- ============ 主栏 ============ -->
+    <div class="content">
+      <!-- 1 领域概览 -->
+      <section class="panel" id="overview">
+        <h2><span class="no">01</span>领域概览：一集片源被分成几块信息</h2>
+        <p class="section-note">时长、分辨率、码率、封装、音轨来自 11月3日至11月7日对 6 份样本的抽检，样本数不能代表全部流传版本。</p>
+        <div class="compare">
+          <div class="row-head">属性项</div>
+          <div class="row-head">常见取值与观察</div>
+          <div class="col-a">时长</div>
+          <div class="col-b">常见 25:40、26:14、26:52 三档；26:14 与片尾字幕完整段吻合</div>
+          <div class="col-a">分辨率</div>
+          <div class="col-b">854×480、1280×720、1920×1080；标称 1080p 中有 2 份实为 720p 拉伸</div>
+          <div class="col-a">视频码率</div>
+          <div class="col-b">1080p 样本在 3.2–5.6 Mbps 之间浮动，3 Mbps 以下暗部容易糊</div>
+          <div class="col-a">音轨</div>
+          <div class="col-b">AAC 128k 单声道居多，少数为 192k 立体声；转录版有明显底噪</div>
+          <div class="col-a">字幕</div>
+          <div class="col-b">内嵌简中、外挂 SRT、无字幕三种；外挂轨时间轴偏差最大约 4 秒</div>
+        </div>
+        <p style="margin-top:14px">把一集拆成这五项之后，就能理解为什么同一集会出现“看起来都是高清”的争论：分辨率只是其中一项，码率和音轨经常被忽略，而恰恰是它们决定观感。11月5日在论坛「影音杂谈」的一则对比帖里，有人把 720p 补帧版和 1080p 原版放在同一台 27 寸显示器上截图，肉眼差异集中在片头 12 秒的暗场。</p>
+      </section>
+
+      <!-- 2 精选内容推荐 -->
+      <section class="panel" id="picks">
+        <h2><span class="no">02</span>精选内容推荐：四个值得先看的版本与衍生素材</h2>
+        <div class="grid-cards">
+          <article class="mcard">
+            <img src="https://picsum.photos/seed/pnm42a1/480/270" width="480" height="270" loading="lazy" alt="42集原始封装版片头暗场截图示意">
+            <div class="body">
+              <h3>42集 1080p 原始封装版</h3>
+              <p>码率 5.4 Mbps，AAC 192k，时长 26:14，片尾字幕完整。适合想看清服装纹理与背景布景的观众。</p>
+              <div class="tag-row"><span class="tag green">已核时长</span><span class="tag blue">高码率</span></div>
+            </div>
+          </article>
+          <article class="mcard">
+            <img src="https://picsum.photos/seed/pnm42b2/480/270" width="480" height="270" loading="lazy" alt="外挂中文字幕时间轴对齐界面示意">
+            <div class="body">
+              <h3>外挂简中字幕轨 SRT 修订版</h3>
+              <p>11月4日由「字幕工坊-阿岚」上传第 3 版，修正 17 处对白错字，时间轴整体后移 0.8 秒。</p>
+              <div class="tag-row"><span class="tag">SRT</span><span class="tag blue">修订3版</span></div>
+            </div>
+          </article>
+          <article class="mcard">
+            <img src="https://picsum.photos/seed/pnm42c3/480/270" width="480" height="270" loading="lazy" alt="音轨频谱对比图示意">
+            <div class="body">
+              <h3>双音轨对比听感记录</h3>
+              <p>立体声版在第 8 分 40 秒的环境声更宽；单声道版人声略靠前，但底噪高出约 6 dB。</p>
+              <div class="tag-row"><span class="tag">音轨</span><span class="tag red">底噪差异</span></div>
+            </div>
+          </article>
+          <article class="mcard">
+            <img src="https://picsum.photos/seed/pnm42d4/480/270" width="480" height="270" loading="lazy" alt="前情回顾时间线卡片示意">
+            <div class="body">
+              <h3>第1至41集观看顺序表</h3>
+              <p>按播出编号排列，标注 3 处交叉叙事段落，若从第 40 集切入可直接跳到第 41 集尾段。</p>
+              <div class="tag-row"><span class="tag green">观看顺序</span><span class="tag">时间线</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 3 最新更新 -->
+      <section class="panel" id="updates">
+        <h2><span class="no">03</span>最新更新：本周核对与修订记录</h2>
+        <ul class="updates">
+          <li><time>今天 09:20</time><div><span class="u-title">版本表新增 1920×1080 条目</span><p class="u-desc">补充 26 分 14 秒样本的码率区间 5.2–5.6 Mbps，附文件大小 1.42 GB。</p></div></li>
+          <li><time>昨天 21:05</time><div><span class="u-title">字幕错字清单第 3 版</span><p class="u-desc">「字幕工坊-阿岚」修订 17 处，其中 6 处为人名写法统一。</p></div></li>
+          <li><time>11月5日</time><div><span class="u-title">论坛对比帖被引用</span><p class="u-desc">「影音杂谈」用户 teal_2026 上传 4 张暗场截图，指出拉伸版细节丢失。</p></div></li>
+          <li><time>11月3日</time><div><span class="u-title">音轨底噪测量记录</span><p class="u-desc">用 Audacity 3.7 测得单声道版底噪 -58 dB，立体声版 -64 dB。</p></div></li>
+          <li><time>10月29日</time><div><span class="u-title">观看顺序表补入第 41 集尾段说明</span><p class="u-desc">标注第 40 集后可直接接第 41 集 18 分 20 秒处，不影响理解。</p></div></li>
+        </ul>
+      </section>
+
+      <!-- 4 分类入口 -->
+      <section class="panel" id="channels">
+        <h2><span class="no">04</span>分类入口：按需求找对应资料</h2>
+        <div class="index-tags">
+          <a href="/#picks">画质层级对照 <span class="cnt">4 项</span></a>
+          <a href="/#deep">码率与暗场细节 <span class="cnt">3 项</span></a>
+          <a href="/#guide">外挂字幕对齐 <span class="cnt">5 步</span></a>
+          <a href="/#faq">时长不一致排查 <span class="cnt">4 问</span></a>
+          <a href="/#comments">观众版本反馈 <span class="cnt">8 条</span></a>
+          <a href="/#news">相关资讯汇总 <span class="cnt">6 条</span></a>
+          <a href="/#rank">画质排行 <span class="cnt">6 名</span></a>
+          <a href="/#timeline">版本沿革时间线 <span class="cnt">5 节点</span></a>
+          <a href="/#rec">相关推荐标签 <span class="cnt">12 个</span></a>
+          <a href="/#overview">音轨规格对照 <span class="cnt">3 类</span></a>
+        </div>
+      </section>
+
+      <!-- 5 深度解析：唯一主体阅读区 -->
+      <section class="panel deep" id="deep">
+        <h2><span class="no">05</span>深度解析：1080p 标签与真实清晰度并不等价</h2>
+        <p>把第42集所有自称“高清”的样本按分辨率归类后，得到一个不太舒服的结论：<strong>分辨率数字能解释的画质差异，不到实际观感差异的一半</strong>。剩下部分来自码率、编码器设置和源素材。这个判断可以被反驳——只要找到一份 720p 样本在细节上全面优于 1080p 样本的反例即可，我在抽检中没有找到，但 6 份样本的规模不足以定论。</p>
+
+        <h3>1. 三份 1080p 样本的码率与文件大小对照</h3>
+        <table>
+          <thead><tr><th>样本编号</th><th>分辨率</th><th>码率</th><th>文件大小</th><th>暗场观察</th></tr></thead>
+          <tbody>
+            <tr><td>A1</td><td>1920×1080</td><td>5.4 Mbps</td><td>1.42 GB</td><td>片头 0:12 布景纹理清晰</td></tr>
+            <tr><td>B2</td><td>1920×1080</td><td>3.1 Mbps</td><td>0.86 GB</td><td>暗部出现块状，边缘发虚</td></tr>
+            <tr><td>C3</td><td>1280×720（拉伸）</td><td>4.8 Mbps</td><td>0.94 GB</td><td>标称 1080p，实际像素不足</td></tr>
+          </tbody>
+        </table>
+        <p>A1 与 B2 同为 1080p，码率差 2.3 Mbps，暗场表现差距明显。C3 的问题更基础：它把 720p 放大到 1080p 后重新封装，文件属性里的分辨率是 1920×1080，但有效细节只有 1280×720。11月5日 teal_2026 的截图帖展示了这一点——放大 200% 后，C3 的布纹边缘出现明显锯齿。</p>
+
+        <h3>2. 字幕轨版本差异带来的理解成本</h3>
+        <p>外挂字幕存在三个可核对版本：10月28日首版、11月2日第 2 版、11月4日第 3 版。第 3 版把第 9 分 12 秒处的一句对白从“等我回来再说”改为“等我回来说”，语义差别不大，但时间轴整体后移 0.8 秒，解决了前两版口型不同步的问题。</p>
+        <p class="quote">「字幕工坊-阿岚」在第 3 版更新说明里写：第 2 版有 17 处错字，其中 6 处是人名前后写法不一致，已统一为“朴成雅”而非“朴承雅”。</p>
+        <p>这类差异不影响剧情理解，却影响引用与检索。如果打算做二次剪辑或截图存档，字幕版本要一并标注，否则同一句话在不同版本里会搜不到。</p>
+
+        <h3>3. 时长 26:14 与 25:40 的差异出在哪</h3>
+        <p>两份样本时长相差 34 秒。逐段比对后，差异集中在片尾：26:14 版包含完整演职员表与下集预告，25:40 版在演职员表第一屏就切断。正片内容一致，从 0:00 到 25:35 的帧数相同。这个结论有一个可核对的验证方法：取两份样本第 20 分 00 秒的画面截图，比对同一帧的服装褶皱，若完全一致即可确认正片未删减。</p>
+        <div class="callout">可核对结构：正片是否完整 → 取 0:00、13:00、25:30 三个时间点截图比对 → 三处一致则差异只在片尾 → 再看片尾时长是否覆盖完整演职员表。任何一步对不上，就回到该时间点逐帧检查。</div>
+
+        <h3>4. 音轨规格被忽略的后果</h3>
+        <p>单声道 AAC 128k 版本在第 8 分 40 秒的环境声里损失了左右声道信息，听起来“闷”但不影响对白。若用耳机听，立体声 192k 版本的人声位置更居中，背景声有宽度。11月3日的底噪测量记录显示，转录版底噪 -52 dB，原始封装版 -64 dB，12 dB 的差距在安静段落里能直接听出来。</p>
+        <p>判断顺序建议是：先看时长是否完整，再看码率是否高于 3 Mbps，最后听片头 30 秒有无明显底噪。三步走完，基本能排除大多数低质版本。</p>
+      </section>
+
+      <!-- 6 体验指南：编号步骤 -->
+      <section class="panel" id="guide">
+        <h2><span class="no">06</span>体验指南：五步核对手里的片源</h2>
+        <ol class="steps">
+          <li><b>查时长。</b>播放器显示总时长，26:14 为完整版参照值；25:40 左右说明片尾被截断。</li>
+          <li><b>查分辨率与码率。</b>用播放器“媒体信息”面板查看，码率低于 3 Mbps 的 1080p 要谨慎。</li>
+          <li><b>看片头暗场。</b>拖到 0:12 附近暂停，观察布景边缘是否出现块状或锯齿。</li>
+          <li><b>听片头环境声。</b>前 30 秒若有持续电流声，多半是转录版。</li>
+          <li><b>对字幕时间轴。</b>外挂轨在第 9 分 12 秒处应与口型同步，偏差超过 1 秒需换第 3 版字幕。</li>
+        </ol>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="panel" id="faq">
+        <h2><span class="no">07</span>常见疑问</h2>
+        <details>
+          <summary>42集高清版为什么有 25:40 和 26:14 两种时长？</summary>
+          <div class="ans">差异在片尾。26:14 版包含完整演职员表与下集预告，25:40 版在第一屏演职员表处切断，正片帧数一致。验证方法是取第 20 分 00 秒截图比对，画面完全相同即可确认正片未删。</div>
+        </details>
+        <details>
+          <summary>1080p 版本码率只有 3 Mbps，还值得看吗？</summary>
+          <div class="ans">看用途。日常观看可以接受，暗场会有块状压缩；若要截图或做素材，建议找 5 Mbps 以上的原始封装版。码率与分辨率是两个独立参数，分辨率达标不代表压缩损失小。</div>
+        </details>
+        <details>
+          <summary>外挂 SRT 字幕对不上口型怎么办？</summary>
+          <div class="ans">先确认字幕版本。11月4日第 3 版已把时间轴整体后移 0.8 秒，若仍不同步，可用播放器的字幕延迟功能微调，每次 0.2 秒，通常 ±1 秒内可对齐。</div>
+        </details>
+        <details>
+          <summary>单声道和立体声音轨听感差多少？</summary>
+          <div class="ans">对白清晰度接近，差别在环境声的宽度。第 8 分 40 秒处立体声版能听出左右位置，单声道版压成一条。底噪方面，转录单声道版 -52 dB，原始封装立体声版 -64 dB。</div>
+        </details>
+        <details>
+          <summary>从第 40 集直接看第 42 集会看不懂吗？</summary>
+          <div class="ans">会漏掉第 41 集尾段的一段交叉叙事，约 2 分钟。若时间紧，至少补看第 41 集 18 分 20 秒之后的内容，再接第 42 集开头，人物动机基本连贯。</div>
+        </details>
+      </section>
+
+      <!-- 8 用户评论 -->
+      <section class="panel" id="comments">
+        <h2><span class="no">08</span>用户评论：版本体验各不相同</h2>
+        <div class="comments">
+          <div class="comment"><div class="who">夜航船_07 <span>11月6日</span></div><p>A1 那份 5.4 Mbps 的确实清楚，片头布景的纹理能看清。唯一问题是文件 1.42 GB，手机存不下，得先转存。</p></div>
+          <div class="comment"><div class="who">半糖不加冰 <span>11月6日</span></div><p>下了个标 1080p 的，结果放大一看边缘全是锯齿，后来才知是 720p 拉伸。看码率才 4.8 Mbps，白折腾一晚上。</p></div>
+          <div class="comment"><div class="who">老周看片 <span>11月5日</span></div><p>外挂字幕第 3 版好用，第 2 版第 9 分钟那句口型对不上，看得我反复倒回去。换第 3 版就顺了。</p></div>
+          <div class="comment"><div class="who">teal_2026 <span>11月5日</span></div><p>截图帖里那 4 张暗场对比，C3 的布纹边缘能看到明显阶梯。不是分辨率数字的问题，是源素材被放大过。</p></div>
+          <div class="comment"><div class="who">阿岚的字幕本 <span>11月4日</span></div><p>第 3 版修订了 17 处错字，6 处是人名统一。时间轴后移 0.8 秒是重新对轨的结果，不是随手改的。</p></div>
+          <div class="comment"><div class="who">一格电 <span>11月3日</span></div><p>音轨这事我一直没注意，直到戴耳机看第 8 分 40 秒，才发现之前那份是单声道，环境声全糊在一起。换立体声版舒服多了。</p></div>
+          <div class="comment"><div class="who">木木夕 <span>11月2日</span></div><p>26:14 版片尾演职员表挺完整的，能看到配乐署名。25:40 那份切得太急，第一次看还以为播放器出错了。</p></div>
+          <div class="comment"><div class="who">路过的小林 <span>11月1日</span></div><p>说句实话，480p 转录版也不是不能看，就是底噪大、暗场糊。要求不高的话凑合，但别指望截图能看。</p></div>
+        </div>
+      </section>
+
+      <!-- 9 相关资讯 -->
+      <section class="panel" id="news">
+        <h2><span class="no">09</span>相关资讯</h2>
+        <ul class="news-list">
+          <li><span class="src">11月7日</span><a href="/#updates">版本表补入 1080p 高码率条目，附码率区间与文件大小</a></li>
+          <li><span class="src">11月5日</span><a href="/#deep">「影音杂谈」对比帖：720p 拉伸版在暗场出现锯齿</a></li>
+          <li><span class="src">11月4日</span><a href="/#deep">外挂简中字幕第 3 版发布，修正 17 处错字</a></li>
+          <li><span class="src">11月3日</span><a href="/#overview">底噪测量记录公开：单声道版 -52 dB，立体声版 -64 dB</a></li>
+          <li><span class="src">10月30日</span><a href="/#guide">五步核对法整理成图文，覆盖时长、码率、暗场、音轨、字幕</a></li>
+          <li><span class="src">10月29日</span><a href="/#timeline">观看顺序表补入第 41 集尾段说明，标注交叉叙事节点</a></li>
+        </ul>
+      </section>
+
+      <!-- 10 相关推荐 -->
+      <section class="panel" id="rec">
+        <h2><span class="no">10</span>相关推荐</h2>
+        <div class="rec-tags">
+          <a href="/#picks">42集原始封装版</a>
+          <a href="/#deep">1080p 码率对照表</a>
+          <a href="/#guide">外挂字幕对齐方法</a>
+          <a href="/#faq">时长不一致排查</a>
+          <a href="/#comments">版本体验反馈</a>
+          <a href="/#rank">画质排行</a>
+          <a href="/#timeline">版本沿革时间线</a>
+          <a href="/#overview">音轨规格对照</a>
+          <a href="/#news">本周更新记录</a>
+          <a href="/#channels">分类入口索引</a>
+          <a href="/#picks">第1至41集顺序表</a>
+          <a href="/#deep">暗场细节判断</a>
+        </div>
+      </section>
+
+      <!-- 11 榜单 + 时间线 -->
+      <section class="panel" id="rank">
+        <h2><span class="no">11</span>画质排行与版本沿革</h2>
+        <p class="section-note">排行依据 11月7日抽检的 6 份样本，评分综合码率、时长完整度与暗场表现，满分 10 分。</p>
+        <ol class="rank">
+          <li><span>42集 1080p 原始封装版（5.4 Mbps）</span><span class="score">9.2 / 10</span></li>
+          <li><span>42集 1080p 立体声 192k 版</span><span class="score">8.7 / 10</span></li>
+          <li><span>42集 720p 补帧版（1280×720）</span><span class="score">7.4 / 10</span></li>
+          <li><span>42集 1080p 低码率版（3.1 Mbps）</span><span class="score">6.5 / 10</span></li>
+          <li><span>42集 720p 拉伸伪装 1080p 版</span><span class="score">5.8 / 10</span></li>
+          <li><span>42集 480p 转录版</span><span class="score">4.1 / 10</span></li>
+        </ol>
+        <h3 id="timeline" style="margin-top:22px">版本沿革时间线</h3>
+        <ul class="timeline">
+          <li><time>10月10日</time>480p 转录版最早流传，单声道，底噪明显。</li>
+          <li><time>10月18日</time>720p 补帧版出现，帧率由 24 提升至 30，暗场有轻微拖影。</li>
+          <li><time>10月28日</time>首版外挂 SRT 发布，时间轴整体偏前约 0.8 秒。</li>
+          <li><time>11月2日</time>字幕第 2 版，修正部分错字，但人名写法未统一。</li>
+          <li><time>11月4日</time>第 3 版字幕发布，17 处错字修订，时间轴后移 0.8 秒。</li>
+          <li><time>11月7日</time>1080p 原始封装版参数补齐，码率区间 5.2–5.6 Mbps。</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- ============ 侧栏 ============ -->
+    <aside class="aside" aria-label="栏内导航与速查">
+      <div class="aside-sticky">
+        <nav class="card side-nav" id="sideNav" aria-label="本页栏目导航">
+          <h3>本页栏目</h3>
+          <ol>
+            <li><a href="/#overview">领域概览</a></li>
+            <li><a href="/#picks">精选版本</a></li>
+            <li><a href="/#updates">更新记录</a></li>
+            <li><a href="/#channels">分类入口</a></li>
+            <li><a href="/#deep">深度解析</a></li>
+            <li><a href="/#guide">体验指南</a></li>
+            <li><a href="/#faq">常见疑问</a></li>
+            <li><a href="/#comments">用户评论</a></li>
+            <li><a href="/#news">相关资讯</a></li>
+            <li><a href="/#rec">相关推荐</a></li>
+            <li><a href="/#rank">画质排行</a></li>
+          </ol>
+        </nav>
+        <div class="card side-nav">
+          <h3>速查卡</h3>
+          <ul style="list-style:none;padding:0;margin:0;font-size:.86rem">
+            <li style="padding:4px 0">完整时长：26:14</li>
+            <li style="padding:4px 0">建议码率：≥ 3 Mbps</li>
+            <li style="padding:4px 0">字幕版本：第 3 版</li>
+            <li style="padding:4px 0">音轨：AAC 192k 立体声</li>
+            <li style="padding:4px 0">暗场检查点：0:12</li>
+          </ul>
+        </div>
+        <div class="card no-result" id="noResult" role="status"></div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1d4e63"/><path d="M18 20h28v6H18zM18 32h20v6H18zM18 44h28v6H18z" fill="#e8b64c"/><circle cx="48" cy="35" r="5" fill="#e8b64c"/></svg>
+          朴妮唛42集高清
+        </div>
+        <p>把一集片源拆成时长、分辨率、码率、音轨、字幕五项参数逐条核对，参数对不上就回头查样本。</p>
+      </div>
+      <div>
+        <h4>资料栏目</h4>
+        <ul>
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#picks">精选版本</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>查询入口</h4>
+        <ul>
+          <li><a href="/#faq">常见疑问</a></li>
+          <li><a href="/#updates">更新记录</a></li>
+          <li><a href="/#rank">画质排行</a></li>
+          <li><a href="/#timeline">版本时间线</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>互动与推荐</h4>
+        <ul>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#rec">相关推荐</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#channels">分类索引</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>全部版本条目为示例数据，参数以 2026年11月7日 抽检的 6 份样本为参照，不构成下载或版权指引。</span>
+      <span>页脚更新：2026-11-08 · 对应正文「最新更新」板块</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var menuBtn = document.getElementById('menuBtn');
+  var nav = document.getElementById('mainNav');
+  if(menuBtn && nav){
+    menuBtn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.innerWidth <= 960){
+        nav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  // 锚点平滑滚动偏移
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href^="/#"]');
+    if(!a) return;
+    var id = a.getAttribute('href').slice(2);
+    var el = document.getElementById(id);
+    if(!el) return;
+    e.preventDefault();
+    var top = el.getBoundingClientRect().top + window.pageYOffset - 112;
+    window.scrollTo({top: top, behavior: 'smooth'});
+    history.replaceState(null, '', '/#' + id);
+  });
+
+  // 回到顶部
+  var toTop = document.getElementById('toTop');
+  window.addEventListener('scroll', function(){
+    if(window.pageYOffset > 500){ toTop.classList.add('show'); }
+    else { toTop.classList.remove('show'); }
+  }, {passive:true});
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  // 搜索：本地查找
+  var form = document.getElementById('searchForm');
+  var input = document.getElementById('q');
+  var noResult = document.getElementById('noResult');
+  var sections = Array.prototype.slice.call(document.querySelectorAll('main section[id], main .panel[id]'));
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var kw = input.value.trim().toLowerCase();
+    if(!kw){ noResult.classList.remove('show'); return; }
+    var found = null;
+    for(var i=0;i<sections.length;i++){
+      if(sections[i].textContent.toLowerCase().indexOf(kw) !== -1){
+        found = sections[i];
+        break;
+      }
+    }
+    if(found){
+      noResult.classList.remove('show');
+      var top = found.getBoundingClientRect().top + window.pageYOffset - 112;
+      window.scrollTo({top: top, behavior:'smooth'});
+    } else {
+      noResult.classList.add('show');
+      noResult.textContent = '没有找到与「' + input.value.trim() + '」相关的内容，可试试“码率”“字幕”“时长”“音轨”等词。';
+    }
+  });
+
+  // 侧栏滚动高亮
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('#sideNav a[href^="/#"]'));
+  var targets = navLinks.map(function(a){ return document.getElementById(a.getAttribute('href').slice(2)); });
+  function highlight(){
+    var pos = window.pageYOffset + 160;
+    var idx = 0;
+    for(var i=0;i<targets.length;i++){
+      if(targets[i] && targets[i].offsetTop <= pos){ idx = i; }
+    }
+    navLinks.forEach(function(a,i){
+      a.classList.toggle('current', i === idx);
+    });
+  }
+  window.addEventListener('scroll', highlight, {passive:true});
+  window.addEventListener('load', highlight);
+  highlight();
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "朴妮唛42集高清",
+  "description": "梳理第42集各版本时长、分辨率、码率、音轨与字幕规格的核对资料页。"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "42集高清版为什么有 25:40 和 26:14 两种时长？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "差异在片尾。26:14 版包含完整演职员表与下集预告，25:40 版在第一屏演职员表处切断，正片帧数一致。验证方法是取第 20 分 00 秒截图比对，画面完全相同即可确认正片未删。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "1080p 版本码率只有 3 Mbps，还值得看吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "看用途。日常观看可以接受，暗场会有块状压缩；若要截图或做素材，建议找 5 Mbps 以上的原始封装版。码率与分辨率是两个独立参数，分辨率达标不代表压缩损失小。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "外挂 SRT 字幕对不上口型怎么办？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "先确认字幕版本。11月4日第 3 版已把时间轴整体后移 0.8 秒，若仍不同步，可用播放器的字幕延迟功能微调，每次 0.2 秒，通常正负 1 秒内可对齐。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "单声道和立体声音轨听感差多少？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "对白清晰度接近，差别在环境声的宽度。第 8 分 40 秒处立体声版能听出左右位置，单声道版压成一条。底噪方面，转录单声道版 -52 dB，原始封装立体声版 -64 dB。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "从第 40 集直接看第 42 集会看不懂吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "会漏掉第 41 集尾段的一段交叉叙事，约 2 分钟。若时间紧，至少补看第 41 集 18 分 20 秒之后的内容，再接第 42 集开头，人物动机基本连贯。"
+      }
+    }
+  ]
+}
+</script>
+</body>
+        </html>
